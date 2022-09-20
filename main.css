@@ -148,7 +148,7 @@ a{
 }
 .second_page{
     width: 100vw;
-    height: 1000px;
+    height: 800px;
     background-color:;
     margin-top: 154px;
 }
@@ -237,10 +237,149 @@ h3{
     width: 260px;
     height: 325px;  
     background-color:#191B1C;
+    display:flex;
+    transition: 0.4s;
+}
+.tovar:hover{
+    width: 260px;
+    height: 325px;  
+    background-color:#6B6B6B;
+    display:flex;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+.watch{
+    margin: auto auto;
+}
+.towar__wrapper{
+    width: 260px;
+    height: 421px;
     margin-right: 12px;
     margin-left: 12px;
-    display:flex;
 }
+.towar__name{
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+.towar__price{
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    line-height: 19px;
+    color: #D0D0D0;
+    margin-top: 10px;
+}
+.bacgroudline{
+    width: 100vw;
+    height: 362px;
+    background: #0F0F0F;
+    margin-top: 150px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+.bacgroudline__container{
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bacgroudline__line120{
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+    margin: 40px auto;
+}
+.footer__line{
+    width: 100vw;
+    height: 50px;
+    background-color: #0F0F0F;
+}
+.footer__container{
+    margin: auto auto;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-around;
+}
+.prava{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+    margin-top:15px;
+}
+.omagazine__img{
+    background-image: url(images/Rectangle%2015.jpg);
+    max-width: 1920px;
+    height: 400px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: auto auto;
+}
+.omagazine__container{
+    margin: 0 auto;
+    max-width: 1110px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.omagazine__omagazine-text{
+    max-width: 350px;
+}
+.omagazine__title{
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.omagazine__text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.omagazine__kategorii_butt{
+    align-items: center;
+    padding: 10px 20px;
+    background: #0F0F0F;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #D0D0D0;
+    transition: 0.4s;
+}
+.omagazine__kategorii_butt:hover{
+    align-items: center;
+    padding: 10px 20px;
+    background: #1F1F1F;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    transition: 0.4s;
+}
+.omagazine__categorii_group{
+    display: flex;
+    justify-content: space-between;
+}
+.omagazine__categorii{
+}
+
+
+
+
+
+
+
+
+
 
 
 
